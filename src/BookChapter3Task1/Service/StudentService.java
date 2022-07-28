@@ -30,4 +30,15 @@ public class StudentService {
         }
         return result;
     }
+    public static List<Student> findStudentsByGroup(String group, List<Student>allStudents){
+        ArrayList<Student> result = new ArrayList<>();
+        Iterator sortByGroup = allStudents.iterator();
+        while(sortByGroup.hasNext()) {
+            Student student = (Student)sortByGroup.next();
+            if (student.getFaculty().equals(group)) {
+                result.add(student);
+            }
+        }
+        return result;
+    }
 }
