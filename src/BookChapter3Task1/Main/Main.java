@@ -23,7 +23,7 @@ public class Main {
 
         System.out.println(StudentService.findStudentsByFaculty("Mechanics", students));
         System.out.println(StudentService.findStudentsByFacultyAndYear("Economics", 2, students));
-        //System.out.println(StudentService.findStudentsByGroup("M-21", students));
+        System.out.println(StudentService.findStudentsByGroup("M-21", students));
 
     }
 }
