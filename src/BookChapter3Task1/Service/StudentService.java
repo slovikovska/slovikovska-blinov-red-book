@@ -41,4 +41,16 @@ public class StudentService {
         }
         return result;
     }
+
+    public static List<Student> findStudentsBybirthYear(int birthDate, List<Student>allStudents){
+        ArrayList<Student> result = new ArrayList<>();
+        Iterator<Student> sortByGroup = allStudents.iterator();
+        while(sortByGroup.hasNext()) {
+            Student student = sortByGroup.next();
+            if (student.getBirthDate()==birthDate) {
+                result.add(student);
+            }
+        }
+        return result;
+    }
 }
