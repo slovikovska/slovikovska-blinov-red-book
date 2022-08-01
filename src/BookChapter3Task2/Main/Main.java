@@ -16,6 +16,6 @@ public class Main {
         customers.add(new Customer(3, "Edison", "Thomas", "Alva", "Menlo Park", 3407392585294850283L, 3181000009126824663L));
         customers.add(new Customer(4, "Klinton", "William", "Jefferson", "NY City", 3407392585294850288L, 3181000009126824661L));
         customers.add(new Customer(5, "Reagan", "Ronald", 3407392585294850279L, 3181000009126824660L));
-        System.out.println(CustomerService.sortBankAccounts(3181000009126824650L, 3181000009126824661L, customers));
+        //System.out.println(CustomerService.sortBankAccounts(3181000009126824650L, 3181000009126824661L, customers));
     }
 }
