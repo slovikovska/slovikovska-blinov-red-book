@@ -1,9 +1,8 @@
-package BookChapter3Task1.Main;
+package book.chapter3.task1.main;
 
-import BookChapter3Task1.Model.Student;
-import BookChapter3Task1.Service.StudentService;
+import book.chapter3.task1.model.Student;
+import book.chapter3.task1.service.StudentService;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Main {

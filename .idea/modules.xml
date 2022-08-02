@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/slovikovska-blinov-red-book.iml" filepath="$PROJECT_DIR$/slovikovska-blinov-red-book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blinov-redBook-solutions.iml" filepath="$PROJECT_DIR$/blinov-redBook-solutions.iml" />
     </modules>
   </component>
 </project>

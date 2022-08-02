@@ -1,7 +1,4 @@
-package BookChapter3Task1.Model;
-
-import java.util.ArrayList;
-import java.util.List;
+package book.chapter3.task1.model;
 
 public class Student {
     private int id;

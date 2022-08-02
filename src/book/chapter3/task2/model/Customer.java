@@ -1,16 +1,16 @@
-package BookChapter3Task2.Model;
+package book.chapter3.task2.model;
 
 public class Customer {
     //id, Фамилия, Имя, Отчество, Адрес, Номер кредитной карточки, Номер банковского счета
-    private int id;
+    private Long id;
     private String lastName;
     private String firstName;
     private String secondName;
     private String address;
-    private long cardNumber;
-    private long bankAccount;
+    private Long cardNumber;
+    private Long bankAccount;
 
-    public Customer(int id, String lastName, String firstName, String secondName, String address, long cardNumber, long bankAccount) {
+    public Customer(Long id, String lastName, String firstName, String secondName, String address, Long cardNumber, Long bankAccount) {
         this.id = id;
         this.lastName = lastName;
         this.firstName = firstName;
@@ -19,7 +19,7 @@ public class Customer {
         this.cardNumber = cardNumber;
         this.bankAccount = bankAccount;
     }
-    public Customer(int id, String lastName, String firstName, long cardNumber, long bankAccount) {
+    public Customer(Long id, String lastName, String firstName, Long cardNumber, Long bankAccount) {
         this.id = id;
         this.lastName = lastName;
         this.firstName = firstName;
@@ -27,11 +27,11 @@ public class Customer {
         this.bankAccount = bankAccount;
     }
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -71,15 +71,15 @@ public class Customer {
         return cardNumber;
     }
 
-    public void setCardNumber(long cardNumber) {
+    public void setCardNumber(Long cardNumber) {
         this.cardNumber = cardNumber;
     }
 
-    public long getBankAccount() {
+    public Long getBankAccount() {
         return bankAccount;
     }
 
-    public void setBankAccount(long bankAccount) {
+    public void setBankAccount(Long bankAccount) {
         this.bankAccount = bankAccount;
     }
     @Override

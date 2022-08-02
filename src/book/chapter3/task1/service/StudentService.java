@@ -1,6 +1,6 @@
-package BookChapter3Task1.Service;
+package book.chapter3.task1.service;
 
-import BookChapter3Task1.Model.Student;
+import book.chapter3.task1.model.Student;
 
 import java.util.ArrayList;
 import java.util.Iterator;
