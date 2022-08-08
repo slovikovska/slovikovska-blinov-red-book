@@ -7,7 +7,7 @@ import java.util.Iterator;
 import java.util.List;
 
 public class CustomerService {
-    private static String[] abc = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
+    //private static String[] abc = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
     public static List<Customer> sortBankAccounts(long startPoint, long finishPoint, List<Customer>allCustomers) {
         List <Customer> result = new ArrayList<>();
         Iterator<Customer> sortBankAccount = allCustomers.iterator();
