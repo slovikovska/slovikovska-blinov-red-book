@@ -19,7 +19,8 @@ public class PatientService {
         return result;
     }
 
-    public static List <Patient> findMedicalPaper(Integer paperNumStart, Integer paperNumFinish, List <Patient> allPatients) {
+
+       /* public static List <Patient> findMedicalPaper(Integer paperNumStart, Integer paperNumFinish, List <Patient> allPatients) {
         List <Patient> result = new ArrayList<>();
 
         Iterator<Patient> findTheMedPaper = allPatients.iterator();
@@ -32,4 +33,17 @@ public class PatientService {
         }
         return result;
     }
+
+        */
+       public static List <Patient> findMedicalPaper(Long paperNumStart, Long paperNumFinish, List <Patient> allPatients) {
+           List <Patient> result = new ArrayList<>();
+           Iterator<Patient> findTheMedPaper = allPatients.iterator();
+           while(findTheMedPaper.hasNext()) {
+               Patient patient = findTheMedPaper.next();
+               if ((patient.getMedicalPaperNumber() > paperNumStart) && (patient.getMedicalPaperNumber() < paperNumFinish)) {
+                   result.add(patient);
+               }
+           }
+           return result;
+       }
 }

@@ -8,27 +8,27 @@ public class Patient {
     private String secondName;
     private String address;
     private String phoneNumber;
-    private String medialPaperNumber;
+    private Long medicalPaperNumber;
     private String diagnosis;
 
-    public Patient(Long id, String lastName, String firstName, String secondName, String address, String phoneNumber, String medialPaperNumber, String diagnosis) {
+    public Patient(Long id, String lastName, String firstName, String secondName, String address, String phoneNumber, Long medicalPaperNumber, String diagnosis) {
         this.id = id;
         this.lastName = lastName;
         this.firstName = firstName;
         this.secondName = secondName;
         this.address = address;
         this.phoneNumber = phoneNumber;
-        this.medialPaperNumber = medialPaperNumber;
+        this.medicalPaperNumber = medicalPaperNumber;
         this.diagnosis = diagnosis;
     }
 
-    public Patient(Long id, String lastName, String firstName, String address, String phoneNumber, String medialPaperNumber, String diagnosis) {
+    public Patient(Long id, String lastName, String firstName, String address, String phoneNumber, Long medialPaperNumber, String diagnosis) {
         this.id = id;
         this.lastName = lastName;
         this.firstName = firstName;
         this.address = address;
         this.phoneNumber = phoneNumber;
-        this.medialPaperNumber = medialPaperNumber;
+        this.medicalPaperNumber = medicalPaperNumber;
         this.diagnosis = diagnosis;
     }
 
@@ -80,12 +80,12 @@ public class Patient {
         this.phoneNumber = phoneNumber;
     }
 
-    public String getMedialPaperNumber() {
-        return medialPaperNumber;
+    public Long getMedicalPaperNumber() {
+        return medicalPaperNumber;
     }
 
-    public void setMedialPaperNumber(String medialPaperNumber) {
-        this.medialPaperNumber = medialPaperNumber;
+    public void setMedicalPaperNumber(Long medialPaperNumber) {
+        this.medicalPaperNumber = medialPaperNumber;
     }
 
     public String getDiagnosis() {
@@ -105,7 +105,7 @@ public class Patient {
         patientList.append(", Second Name: ").append(this.secondName);
         patientList.append(", Address: ").append(this.address);
         patientList.append(", Phone Number: ").append(this.phoneNumber);
-        patientList.append(", Medical Paper Number: ").append(this.medialPaperNumber);
+        patientList.append(", Medical Paper Number: ").append(this.medicalPaperNumber);
         patientList.append(", Diagnosis: ").append(this.diagnosis);
         patientList.append(" \n");
 
