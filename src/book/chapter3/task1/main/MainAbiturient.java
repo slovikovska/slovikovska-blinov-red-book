@@ -1,12 +1,12 @@
-package book.chapter3.task4.main;
+package book.chapter3.task1.main;
 
-import book.chapter3.task4.model.Abiturient;
-import book.chapter3.task4.service.AbiturientService;
+import book.chapter3.task1.model.Abiturient;
+import book.chapter3.task1.service.AbiturientService;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class MainAbiturient {
     public static void main(String[] args) {
         // id, Фамилия, Имя, Отчество, Адрес, Телефон, Оценки
         List<Abiturient> abiturients = new ArrayList<>();

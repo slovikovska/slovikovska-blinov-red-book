@@ -5,7 +5,7 @@ import book.chapter3.task1.service.StudentService;
 
 import java.util.List;
 
-public class Main {
+public class MainStudent {
 
     public static void main(String[] args) {
         Student student1 = new Student(1, "Turner", "Adair", "M", 2002, "London City", "0984455612300", "Economics", 1, "E-11");

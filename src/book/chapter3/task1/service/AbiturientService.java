@@ -1,6 +1,6 @@
-package book.chapter3.task4.service;
+package book.chapter3.task1.service;
 
-import book.chapter3.task4.model.Abiturient;
+import book.chapter3.task1.model.Abiturient;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -15,13 +15,14 @@ public class AbiturientService {
             Abiturient abiturient = sortByGrade.next();
             Iterator<Integer> findLower = Arrays.stream(abiturient.getMarks()).iterator();
             while (findLower.hasNext()) {
-               Integer i = findLower.next();
+                Integer i = findLower.next();
                 if (i <= min) {
-                   break;
+                    result.add(abiturient);
                 }
             }
-            result.add(abiturient);
+
         }
+
         return result;
     }
 

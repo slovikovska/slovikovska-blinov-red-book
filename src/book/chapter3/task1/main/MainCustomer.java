@@ -1,12 +1,12 @@
-package book.chapter3.task2.main;
+package book.chapter3.task1.main;
 
-import book.chapter3.task2.model.Customer;
-import book.chapter3.task2.service.CustomerService;
+import book.chapter3.task1.model.Customer;
+import book.chapter3.task1.service.CustomerService;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class MainCustomer {
     public static void main(String[] args) {
         //id, Фамилия, Имя, Отчество, Адрес, Номер кредитной карточки, Номер банковского счета
         List<Customer> customers = new ArrayList<>();

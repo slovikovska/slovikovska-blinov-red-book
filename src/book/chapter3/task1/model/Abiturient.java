@@ -1,4 +1,4 @@
-package book.chapter3.task4.model;
+package book.chapter3.task1.model;
 
 import java.util.Arrays;
 

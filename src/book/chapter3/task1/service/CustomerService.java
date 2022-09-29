@@ -1,5 +1,5 @@
-package book.chapter3.task2.service;
-import book.chapter3.task2.model.Customer;
+package book.chapter3.task1.service;
+import book.chapter3.task1.model.Customer;
 
 import java.util.ArrayList;
 import java.util.Collections;

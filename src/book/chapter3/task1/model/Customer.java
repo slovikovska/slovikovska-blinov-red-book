@@ -1,4 +1,4 @@
-package book.chapter3.task2.model;
+package book.chapter3.task1.model;
 
 public class Customer {
     //id, Фамилия, Имя, Отчество, Адрес, Номер кредитной карточки, Номер банковского счета

@@ -1,12 +1,12 @@
-package book.chapter3.task3.main;
+package book.chapter3.task1.main;
 
-import book.chapter3.task3.model.Patient;
-import book.chapter3.task3.service.PatientService;
+import book.chapter3.task1.model.Patient;
+import book.chapter3.task1.service.PatientService;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class MainPatient {
     public static void main(String[] args) {
         List<Patient> patients =  new ArrayList<>();
 // id, Фамилия, Имя, Отчество, Адрес, Телефон, Номер медицинской карты, Диагноз.

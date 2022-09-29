@@ -1,4 +1,4 @@
-package book.chapter3.task3.model;
+package book.chapter3.task1.model;
 
 public class Patient {
     // id, Фамилия, Имя, Отчество, Адрес, Телефон, Номер медицинской карты, Диагноз.
